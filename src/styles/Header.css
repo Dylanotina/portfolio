@@ -1,0 +1,40 @@
+.HeaderFrame1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin:0 5%;
+    width: 90%;
+
+}
+
+
+.HeaderFrame2{
+    display: flex;
+    flex-direction: row;
+    
+}
+a{
+    text-decoration: none;
+    color: #2F3037;
+}
+
+.HeaderFrame2 h6{
+    padding-right: 64px;
+}
+
+
+
+h6{
+    font-size: 21px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #2F3037;
+}
+
+svg{
+    height: 24px;
+    width: 24px;
+    color: #2F3037;
+}

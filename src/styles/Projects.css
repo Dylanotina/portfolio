@@ -1,0 +1,40 @@
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.other-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.other-projects h4{
+    text-align: center;
+}
+.card-list-projects{
+    display: flex;
+    left: 0;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.card{
+    margin-right: 4%;
+}
+
+.main{
+    height: 80%;
+}
