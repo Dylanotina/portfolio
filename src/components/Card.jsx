@@ -9,7 +9,7 @@ function Card({projectdata}) {
     <article  className="card">
     <header className="card-header">
       <p>Created on {dateFormat(new Date(projectdata?.created_at),"longDate")} </p>
-      <a href="item.html_url"><h2>{projectdata?.name.length > 30 ? `${projectdata?.name.substring(0, 20)}...` : projectdata?.name}</h2></a>
+      <a href={projectdata?.html_url}><h2>{projectdata?.name.length > 30 ? `${projectdata?.name.substring(0, 20)}...` : projectdata?.name}</h2></a>
     </header>
 
     <div className="card-author"> 
