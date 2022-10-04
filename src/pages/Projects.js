@@ -33,9 +33,9 @@ let dataFiltered = data.filter(project => project.id !== 448354677 && project.id
       </div>
 
       <div className="main">
-        <Project title={project1?.name.replace(/-/g, " ")} description={project1?.description} conditionalStyle={true} image={imagesforProject1}  />
-        <Project title={project2?.name.replace(/-/g, " ")} description={project2?.description} conditionalStyle={false} image={imagesforProject3} />
-        <Project title={project3?.name.replace(/_/g, " ")} description={project3?.description} conditionalStyle={true}  image={ImageProject2} />
+        <Project title={project1?.name.replace(/-/g, " ")} description={project1?.description} conditionalStyle={true} image={imagesforProject1} homepage={project1?.homepage}  />
+        <Project title={project2?.name.replace(/-/g, " ")} description={project2?.description} conditionalStyle={false} image={imagesforProject3} homepage={project2?.homepage} />
+        <Project title={project3?.name.replace(/_/g, " ")} description={project3?.description} conditionalStyle={true}  image={ImageProject2} homepage={project3?.homepage} />
       </div>
 
       <div className="other-projects">
