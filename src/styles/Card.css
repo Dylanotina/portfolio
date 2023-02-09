@@ -18,7 +18,7 @@
   .card-header p {
       font-size: 14px;
       margin: 0 0 1rem;
-      color: rgba(47, 48, 55, 1);
+      color: #f0edf8;
   }
   .card-header h2 {
       font-size: 20px;
@@ -28,6 +28,10 @@
       border: 0;
       display: inline-block;
       cursor: pointer;
+  }
+
+  .card-header h2:hover{
+    color: #0b0712;
   }
   .tags {
       margin: 1rem 0 2rem;
@@ -57,16 +61,19 @@
       border-color: white;
   }
   .card-author{
-    color: rgba(47, 48, 55, 1);
+    color: #f0edf8;
     font-weight: 700;
   }
   .card-author a{
     text-decoration: none;
     font-weight: 500;
-    color: rgba(47, 48, 55, 1);
+    color: #f0edf8;
   }
   .card-author a:hover{
-    color: white;
+    color:#0b0712
+  }
+  .card-author p{
+    color:#f0edf8
   }
 
   .Loading{
